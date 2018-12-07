@@ -1,12 +1,10 @@
 #include "Component.h"
-
-
-
-Component::Component()
-{
+#include "Vector2.h"
+Component::Component() {
+	this->mID = 0;
+	this->mCompName = "default";
 }
 
 
-Component::~Component()
-{
+Component::~Component() {
 }

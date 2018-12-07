@@ -4,7 +4,6 @@ BaseCharacter::BaseCharacter(const char* name, float m, float c) {
 	this->mName = name;
 	this->mCurrentHealth = c;
 	this->mMaxHealth = m;
-	this->mComponents = std::vector<Component*>();
 }
 
 
